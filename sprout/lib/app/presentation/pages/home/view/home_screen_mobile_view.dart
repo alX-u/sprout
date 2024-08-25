@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sprout/app/presentation/pages/home/controller/home_controller.dart';
 import 'package:sprout/core/design/foundations/color_foundations.dart';
+import 'package:sprout/core/design/foundations/text/font_foundations.dart';
 import 'package:sprout/core/design/tokens/gen/fonts.gen.dart';
 import 'package:sprout/core/utils/atom_design/organisms/custom_appbar.dart';
 
@@ -34,9 +35,7 @@ class HomeScreenMobileView extends GetView<HomeController> {
                         child: Center(
                             child: Text(
                           '$firstIndex',
-                          style: TextStyle(
-                              color: ColorFoundations.icons.white,
-                              fontFamily: FontsToken.roboto),
+                          style: FontFoundations.label.roboto16RegularWhite,
                         )),
                       ),
                       Container(
@@ -48,9 +47,7 @@ class HomeScreenMobileView extends GetView<HomeController> {
                         child: Center(
                             child: Text(
                           '$secondIndex',
-                          style: TextStyle(
-                              color: ColorFoundations.icons.white,
-                              fontFamily: FontsToken.roboto),
+                          style: FontFoundations.label.roboto16RegularWhite,
                         )),
                       ),
                     ],

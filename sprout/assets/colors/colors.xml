@@ -2,7 +2,17 @@
 <resources>
     <!-- Base Colors -->
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 
-    <!-- Background Colors -->
-    <color name="softgreen">#43E86A</color>
+    <!-- Green Palette -->
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
 </resources>
